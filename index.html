@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <form name="html form" action="htmlserver" method="post">
+        <table border="0px" cellspacing="5px" cellpading="5px" align="center" bgcolor="#0A0A23">
+            <caption><h3>registration form</h3></caption>
+            <tr bgcolor="orange">
+                <th colspan="4"><h2 align="left">Sign Up</h2><hr></th>  
+            </tr>
+            <tr>
+                <td>
+                <label id="id1" style="color:orange">First name</label>
+                </td>
+                <td>
+                    <input type="text" id="id1" name="name1" placeholder="enter name" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="id2" style="color:orange">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="id2" name="name2" placeholder="enter last name" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="id3" style="color:orange">Second Name</label>
+                </td>
+                <td>
+                    <input type="text" id="id3" name="name3" placeholder="enter second name" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+                <tr>
+                <td>
+                    <label for="day" style="color:orange">Date of Birth</label>
+                </td>
+                <td>
+                    <select id="day" name="day" required>
+                        <option value="">Day</option>
+                        <option>1</option><option>2</option><option>3</option>
+                        <option>4</option><option>5</option><option>6</option>
+                        <option>7</option><option>8</option><option>9</option>
+                        <option>10</option><option>11</option><option>12</option>
+                        <option>13</option><option>14</option><option>15</option>
+                        <option>16</option><option>17</option><option>18</option>
+                        <option>19</option><option>20</option><option>21</option>
+                        <option>22</option><option>23</option><option>24</option>
+                        <option>25</option><option>26</option><option>27</option>
+                        <option>28</option><option>29</option><option>30</option>
+                        <option>31</option>
+                    </select>
+
+                    <select id="month" name="month" required>
+                        <option value="">Month</option>
+                        <option>January</option><option>February</option><option>March</option>
+                        <option>April</option><option>May</option><option>June</option>
+                        <option>July</option><option>August</option><option>September</option>
+                        <option>October</option><option>November</option><option>December</option>
+                    </select>
+
+                    <select id="year" name="year" required>
+                        <option value="">Year</option>
+                        <option>2025</option><option>2024</option><option>2023</option>
+                        <option>2022</option><option>2021</option><option>2020</option>
+                        <option>2019</option><option>2018</option><option>2017</option>
+                        <option>2016</option><option>2015</option><option>2010</option>
+                        <option>2005</option><option>2000</option><option>1995</option>
+                        <option>1990</option><option>1985</option><option>1980</option>
+                        <option>1975</option><option>1970</option><option>1960</option>
+                        <option>1950</option><option>1940</option><option>1930</option>
+                        <option>1920</option><option>1910</option><option>1900</option>
+                    </select>
+                </td>
+                <tr>
+                <td></td>
+            </tr>
+                <tr>
+                    <td><label style="color:orange">Gender</label></td>
+                    <td>
+                    <input type="radio" id="male" valu="male" name="gender" required>
+                    <label for="male" style="color: orangered;">Male</label>
+                    <input type="radio" id="female" valu="female" name="gender" required>
+                    <label for="female" style="color: orangered;">FeMale</label>
+                    </td>
+                </tr>
+                <tr>
+                <td></td>
+            </tr>
+                  <tr>
+                    <td for="country" style="color:orange">Country</td>
+                    <td>
+                        <select id="country" name="country" required>
+                            <option value=""> Select Country</option>
+                            <option>India</option>
+                             <option>United States</option>
+                             <option>United Kingdom</option>
+                             <option>Canada</option>
+                             <option>Australia</option>
+                               <option>Germany</option>
+                             <option>France</option>
+                              <option>Japan</option>
+                               <option>China</option>
+                              <option>Brazil</option>
+                              <option>Other</option>
+
+                        </select>
+                    </td>
+                  </tr>
+                  <tr>
+                <td></td>
+            </tr>
+                  <tr>
+                    <td>
+                        <label id="mail" style="color:orange">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="mail" style="color: white;" name="mail" placeholder="enter@.com" required>
+                    </td>
+                  </tr>
+                  <tr>
+                <td></td>
+            </tr>
+                  <tr>
+                    <td>
+                        <label id="phone" style="color:orange">Phone</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="contact num" required>
+                    </td>
+                  </tr>
+                  <tr>
+                <td></td>
+            </tr>
+                  <tr>
+                    <td>
+                        <label id="pas" style="color:orange">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pas" name="pas" placeholder="Password" required>
+                    </td>
+                  </tr>
+                  <tr>
+                <td></td>
+            </tr>
+                  <tr>
+                    <td>
+                        <label id="pas" style="color:orange">Conform Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pas" name="pas" placeholder="conform password" required>
+                    </td>
+                  </tr>
+                  <tr>
+                <td></td>
+            </tr>
+                  <tr>
+               <td colspan="2">
+                    <input type="checkbox" id="agree" name="agree" required>
+                  <label for="agree" style="color:orange">I agree to the terms and conditions</label>
+               </td>
+              </tr>
+              <tr>
+                <td></td>
+            </tr>
+             <tr>
+                     <td colspan="2" align="right">
+                     <input type="submit" value="Submit" style="background-color:green; color:white; padding:5px 15px; border:none; border-radius:5px; margin-right:10px;">
+                      <input type="reset" value="Cancel"  style="background-color:red; color:white; padding:5px 15px; border:none; border-radius:5px;">
+               </td>
+               </tr>
+
+              <tr>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
